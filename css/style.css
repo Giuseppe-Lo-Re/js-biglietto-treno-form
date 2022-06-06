@@ -62,7 +62,7 @@ label {
 
 /* Ticket */
 #ticket {
-    /* display: none; */ 
+    display: none; 
     padding: 1rem;
 }
 
