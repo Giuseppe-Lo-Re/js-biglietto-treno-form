@@ -9,10 +9,10 @@
     padding: 20px 10px;
 }
 
-/* .ticket {
+#ticket {
     display: none;
 }
 
-.ticket.active {
+#ticket.active {
     display: block;
-} */
+}
