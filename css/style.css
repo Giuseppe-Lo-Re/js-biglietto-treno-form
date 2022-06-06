@@ -13,6 +13,7 @@ body {
 h2{
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
 label {
@@ -27,6 +28,14 @@ label {
     width: 70%;
     margin: 0 auto;
     background-color: white; 
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.p-top {
+    padding-top: 2rem;
 }
 
 /* User Form */
@@ -53,9 +62,24 @@ label {
 
 /* Ticket */
 #ticket {
-    display: none;
+    /* display: none; */ 
+    padding: 1rem;
 }
 
 #ticket.active {
     display: block;
 }
+
+.ticket-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#ticket-name {
+    font-size: 1.3rem;
+    font-weight: 900;
+    background-color: #808080;
+}
+
