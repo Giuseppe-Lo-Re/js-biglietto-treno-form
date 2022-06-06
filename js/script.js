@@ -23,7 +23,7 @@ generateButton.addEventListener('click',
         document.getElementById('user-offer').innerHTML = userAge;
         document.getElementById('user-carriage').innerHTML = Math.floor(Math.random() * 10) + 1;
         document.getElementById('user-code').innerHTML = Math.floor(Math.random() * 100000) + 1;
-        document.getElementById('final_price').innerHTML = finalPrice; 
+        document.getElementById('final-price').innerHTML = finalPrice; 
 
     }
 );
