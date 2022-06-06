@@ -32,7 +32,7 @@ generateButton.addEventListener('click',
         document.getElementById('user-code').innerHTML = Math.floor(Math.random() * 100000) + 1;
 
         // Fill ticket with final Price: 
-        document.getElementById('final-price').innerHTML = finalPrice; 
+        document.getElementById('final-price').innerHTML = '€ ' + finalPrice; 
 
         // Add class "active" to ticket to change display from "none" to "block"
         document.getElementById('ticket').classList.add('active');  
@@ -47,7 +47,7 @@ CancelTicket.addEventListener('click',
         document.getElementById('user-km').value = '';
         document.getElementById('user-age').value = 'maggiorenne';
 
-        // Remove class "active" to ticket to change display from "block" to "none"        
+        // Remove class "active" to ticket to change display from "block" to "block"        
         document.getElementById('ticket').classList.remove('active');
     }
-)
+);

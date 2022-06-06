@@ -5,10 +5,35 @@
     box-sizing: border-box;
 }
 
-.form-item {
-    padding: 20px 10px;
+/* COMMON */
+body {
+    background-color: #b91450;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+.user-form,
+.buttons {
+    text-align: center;
+}
+
+/* User Form */
+.user-form,
+#ticket {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white; 
+}
+
+
+/* Ticket */
 #ticket {
     display: none;
 }
