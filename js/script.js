@@ -16,7 +16,14 @@ generateButton.addEventListener('click',
             discount = price * 40 / 100;
         }
 
-        const finalPrice = price - discount;
-        console.log(finalPrice);
+        const finalPrice = (price - discount).toFixed(2);
+        console.log(finalPrice)
+        
+        document.getElementById('user-name').innerHTML = userName;
+        document.getElementById('user-offer').innerHTML = userAge;
+        document.getElementById('user-carriage').innerHTML = Math.floor(Math.random() * 10) + 1;
+        document.getElementById('user-code').innerHTML = Math.floor(Math.random() * 100000) + 1;
+        document.getElementById('final_price').innerHTML = finalPrice; 
+
     }
 );
