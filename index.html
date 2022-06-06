@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Title -->
+    <title>Biglietto Treno</title>
+</head>
+<body>
+    
+    <div class="user-form">
+        
+        <!-- User Name -->
+        <div class="form-item">
+            <label for="user-name">Nome  Cognome</label>
+            <input type="text" id="user-name">
+        </div>
+
+        <!-- User Km -->
+        <div class="form-item">
+            <label for="user-km">Km da percorrere</label>
+            <input type="number" id="user-km">
+        </div>
+
+        <!-- User Age -->
+        <div class="form-item">
+            <label for="user-age">Fascia d'età</label>
+            <select id="user-age">
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="over">Over 65</option>
+            </select> 
+        </div>
+
+        <!-- Button -->
+        <div class="form-item">
+            <button id="generate-ticket">Genera</button>
+        </div>
+    </div>
+    
+    <!-- Ticket -->
+    <div class="ticket">
+
+        <!-- Ticket Name -->
+        <div class="ticket-name">
+            NOME PASSEGGERO
+            <div class="user-name">
+
+            </div>
+        </div>
+         
+        <!-- Offer -->
+        <div class="ticket-offer">
+            Offerta
+            <div class="user-offer">
+
+            </div>
+        </div>
+
+        <!-- Train Carriage -->
+        <div class="ticket-carriage">
+            Carrozza
+            <div class="user-carriage">
+
+            </div>
+        </div>
+
+        <!-- Personal Code -->
+        <div class="ticket-code">
+            Codice CP
+            <div class="user-code">
+
+            </div>
+        </div>
+
+        <!-- Final Price -->
+        <div class="ticket-price">
+            Costo Biglietto
+            <div class="final-price">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
